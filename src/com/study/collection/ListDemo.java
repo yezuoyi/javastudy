@@ -16,9 +16,14 @@ public class ListDemo{
 	        }
 	    }*/
 	    
-	    for(Integer it:list){
+	/*    for(Integer it:list){
 	        System.out.println(it);
-	    }
+	    }*/
+	    
+	    Integer max = Integer.MAX_VALUE;
+	    System.out.println(max);
+	    Long longMax = Long.MAX_VALUE;
+	    System.out.println(longMax);
 	    
 	}
 }

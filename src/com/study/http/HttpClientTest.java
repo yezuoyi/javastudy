@@ -1,22 +1,11 @@
 package com.study.http;
 
-import java.net.URI;
-
-import org.apache.http.Header;
-import org.apache.http.HeaderIterator;
-import org.apache.http.StatusLine;
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.utils.URIBuilder;
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.HttpClients;
-
 public class HttpClientTest
 {
 
 	public static void main(String[] args) throws Exception
 	{
-
+/*
 		URI uri = new URIBuilder().setScheme("HTTP").setHost("www.baidu.com").setPath("/").setParameter("name", "****")
 				.build();
 		// 创建客户端对象,相当于打开一个浏览器
@@ -61,5 +50,6 @@ public class HttpClientTest
 		{
 			client.close();
 		}
+		*/
 	}
 }
